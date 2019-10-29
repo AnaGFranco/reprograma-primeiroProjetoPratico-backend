@@ -1,0 +1,23 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "Primeiro projeto pratico",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnaGFranco/reprograma-projetopratico-backend.git"
+  },
+  "author": "Ana Gabriela",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnaGFranco/reprograma-projetopratico-backend/issues"
+  },
+  "homepage": "https://github.com/AnaGFranco/reprograma-projetopratico-backend#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
