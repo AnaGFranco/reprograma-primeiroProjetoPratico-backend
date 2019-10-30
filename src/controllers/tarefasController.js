@@ -12,3 +12,21 @@ exports.getById = (req, res) => {
     
     res.status(200).send(tarefa)
 }
+
+exports.getByConcluido =(req, res) =>{
+    const status = true
+    const tarefa = tarefas.find(tarefa => tarefa.concluido == status)
+
+    res.status(200).send(tarefa)
+}
+
+exports.getByConcluido =(req, res) =>{
+
+    const conc = tarefas.filter((item) => {
+        
+        return item.concluido === "true";
+    })
+
+    res.status(200).send(conc)
+
+}
