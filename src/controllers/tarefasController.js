@@ -32,3 +32,17 @@ exports.getByColaborador =(req, res) =>{
     res.status(200).send(pessoa)
 
 }
+exports.getByDataInclusao =(req, res) =>{
+
+    let teste = tarefas.sort(function compare(a, b) {
+    
+    if ((new Date(a.dataInclusao)) < (new Date(b.dataInclusao)))
+        return -1;
+    if ((new Date(a.dataInclusao)) > (new Date(b.dataInclusao)))
+       return 1;
+     return 0;
+
+})
+    
+    res.status(200).send(teste)
+}
