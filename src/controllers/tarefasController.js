@@ -34,15 +34,32 @@ exports.getByColaborador =(req, res) =>{
 }
 exports.getByDataInclusao =(req, res) =>{
 
-    let teste = tarefas.sort(function compare(a, b) {
+    let teste = tarefas.sort((a,b) => {   
+        let primeiraDataA = a.dataInclusao.split('/')
+        let novaDateA = (primeiraDataA[2] + "-" + primeiraDataA[1] + "-" + primeiraDataA[0]);
+        let dataConvertidaA = new Date(novaDateA)
     
-    if ((new Date(a.dataInclusao)) < (new Date(b.dataInclusao)))
-        return -1;
-    if ((new Date(a.dataInclusao)) > (new Date(b.dataInclusao)))
-       return 1;
-     return 0;
+        const primeiraDataB = b.dataInclusao.split('/')
+         let novaDateB = (primeiraDataB[2] + "-" + primeiraDataB[1] + "-" + primeiraDataB[0]);
+        let dataConvertidaB = new Date(novaDateB)
 
-})
+        if (dataConvertidaA < dataConvertidaB) { return -1; }
+        if (dataConvertidaA > dataConvertidaB) { return 1; }
+        return 0;
+    })
     
+
     res.status(200).send(teste)
 }
+
+// function copy(o){
+//     var copy = Object.create( Object.getPr(ototypeOf(o) );
+//     var propNames = Object.getOwnPropertyNames(o);
+//     propNames.forEach(function(name){
+//       var desc = Object.getOwnPropertyDescriptor(o, name);
+//       Object.defineProperty(copy, name, desc);
+  
+//     });
+  
+//     return copy;
+//   }
