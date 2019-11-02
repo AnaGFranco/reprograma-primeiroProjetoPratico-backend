@@ -5,7 +5,8 @@
   "concluido": "false",
   "dataConclusao": "12/08/2020",
   "descricao": "Tarefa 1 - Agora Vai",
-  "nomeColaborador": "Ana"
+  "nomeColaborador": "Ana",
+  "duracao": ""
 
   },
   {
@@ -14,7 +15,8 @@
   "concluido": "true",
   "dataConclusao": "12/12/20",
   "descricao": "Tarefa 2 - Vai com fé",
-  "nomeColaborador": "Ana"
+  "nomeColaborador": "Ana",
+  "duracao": ""
   },
   {
   "id": 3,
@@ -22,7 +24,8 @@
   "concluido": "false",
   "dataConclusao": "01/08/2020",
   "descricao": "Tarefa 3 - Confia",
-  "nomeColaborador": "Lucia"
+  "nomeColaborador": "Lucia",
+  "duracao": ""
   },
   {
   "id": 4,
@@ -30,6 +33,7 @@
   "concluido": "true",
   "dataConclusao": "05/09/2019",
   "descricao": "Tarefa Final - Terminado",
-  "nomeColaborador": "Helena"
+  "nomeColaborador": "Helena",
+  "duracao": ""
   }
 ]
