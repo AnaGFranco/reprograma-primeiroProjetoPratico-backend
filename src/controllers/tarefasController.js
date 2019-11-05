@@ -53,7 +53,7 @@ exports.getByDataInclusao =(req, res) =>{
     res.status(200).send(teste)
 }
 
-exports.getDuracao = (req, res) => {
+exports.getDiferencaDias = (req, res) => {
     tarefas.forEach(item => {
       // element.outraChave = "a";
       const diferencaTempo = Math.abs(
