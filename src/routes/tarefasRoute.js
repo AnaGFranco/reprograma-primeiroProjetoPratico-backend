@@ -7,7 +7,7 @@ const controller = require("../controllers/tarefasController") //casar a chama c
 router.get("/", controller.get)
 router.get("/concluido", controller.getByConcluido)
 router.get("/dias/filtrar", controller.getDiferencaDias)
-router.get("/dataInclusao/teste", controller.getByDataInclusao)
+router.get("/dataInclusao/ordenar", controller.getByDataInclusao)
 router.get("/:id", controller.getById)
 router.get("/buscar/:nomeBusca/", controller.getByColaborador)
 
