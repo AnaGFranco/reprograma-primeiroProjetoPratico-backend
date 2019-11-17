@@ -1,4 +1,4 @@
-Objetivo deste projeto
+**Objetivo deste projeto**
 
 - Add o arquivo .gitignore
 - Organização da arquitetura
@@ -7,22 +7,21 @@ Objetivo deste projeto
 - Retornar lista de tarefas
 - Retornar tarefa por ID
 
-Tecnologias usadas
+**Tecnologias usadas**
 - Node JS.
 
-Para a execução do codigo:
+**Para a execução do codigo:**
 
 Será necessario clonar este repositório:
  1º Acessar o git bash;
  2º Digite o comando:
-git clone https://github.com/AnaGFranco/reprograma-projetopratico-backend.git 
+` git clone https://github.com/AnaGFranco/reprograma-projetopratico-backend.git   `
 
 Após clonar, acesse o novo diretório criado e excute a instalação das dependencias com o comando:
 
-npm install 
+`   npm install      `
 
-
-Endpoints 
+**Endpoints**
 
 GET / => Exibe todas as tarefas
 
