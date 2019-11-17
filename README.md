@@ -1,11 +1,11 @@
 **Objetivo deste projeto**
 
-- Add o arquivo .gitignore
-- Organização da arquitetura
-- Criar o servidor
-- Criar Rota, Controller e Model
-- Retornar lista de tarefas
-- Retornar tarefa por ID
+- Add o arquivo .gitignore;
+- Organização da arquitetura;
+- Criar o servidor;
+- Criar Rota, Controller e Model;
+- Retornar lista de tarefas;
+- Retornar tarefas por variados tipos de filtros.
 
 **Tecnologia **
 - Node JS.
@@ -13,9 +13,10 @@
 **Para a execução do codigo:**
 
 Será necessario clonar este repositório:  
- 1º Acessar o git bash;  
   
- 2º Digite o comando:  
+ **1º** Acessar o git bash;  
+  
+ **2º** Digite o comando:  
    
 ` git clone https://github.com/AnaGFranco/reprograma-projetopratico-backend.git   `
 
