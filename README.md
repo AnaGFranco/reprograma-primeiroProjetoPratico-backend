@@ -7,7 +7,7 @@
 - Retornar lista de tarefas;
 - Retornar tarefas por variados tipos de filtros.
 
-**Tecnologia **
+**Tecnologia**
 - Node JS.
 
 **Para a execução do codigo:**
